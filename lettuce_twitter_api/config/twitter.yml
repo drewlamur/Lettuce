@@ -1,0 +1,18 @@
+base_url: 'https://api.twitter.com'
+
+oauth:
+  consumer_key: ''
+  consumer_secret: ''
+  token: ''
+  token_secret: ''
+
+login:
+  username: ''
+  password: ''
+
+uri_paths:
+  credentials: '/1.1/account/verify_credentials.json'
+  tweets: '/1.1/statuses/lookup.json?id=20'
+  trending: '/1.1/trends/place.json?id=1'
+  locations: '/1.1/trends/available.json'
+  update: '/1.1/statuses/update.json?status='
